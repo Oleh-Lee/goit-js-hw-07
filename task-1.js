@@ -15,4 +15,3 @@ items.forEach(item => {
 
 //elem.innerHTML — свойство, позволяет получить содержимое элемента, 
 //включая теги, в виде строки.
-console.dir(items)
