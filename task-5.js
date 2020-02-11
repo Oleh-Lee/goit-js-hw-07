@@ -10,3 +10,6 @@ function changeValue() {
   }
 }
 userInput.addEventListener("input", changeValue);
+
+//elem.innerHTML — свойство, позволяет получить содержимое элемента, 
+//включая теги, в виде строки.

@@ -22,7 +22,7 @@ const listItem = images.reduce((acc, image) => {
   <img src="${image.url}", alt=${image.alt}></li>`
 }, '');
 gallery.insertAdjacentHTML('beforeend', listItem);
-
+// gallery.append(listItem)//вернет строку
 // const list = document.querySelector("ul#gallery");
 
 // const add = function(arr) {
@@ -37,6 +37,10 @@ gallery.insertAdjacentHTML('beforeend', listItem);
 // };
 
 // add(images)
+
+////element.insertAdjacentHTML(position, string) Метод парсит
+// указанную строку как HTML и добавляет результирующие узлы
+// в указанное место DOM-дерева.
 
 
 
