@@ -21,3 +21,6 @@ function decrement() {
 
 incrementBtn.addEventListener("click", increment);
 decrementBtn.addEventListener("click", decrement);
+
+//elem.innerHTML — свойство, позволяет получить содержимое
+// элемента, включая теги, в виде строки.

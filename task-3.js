@@ -16,6 +16,13 @@ const images = [
   }
 ];
 
+const gallery = document.getElementById('gallery');
+const listItem = images.reduce((acc, image) => {
+  return acc +=`<li>
+  <img src="${image.url}", alt=${image.alt}></li>`
+}, '');
+gallery.insertAdjacentHTML('beforeend', listItem);
+
 // const list = document.querySelector("ul#gallery");
 
 // const add = function(arr) {
@@ -31,12 +38,6 @@ const images = [
 
 // add(images)
 
-const gallery = document.getElementById('gallery');
-const listItem = images.reduce((acc, image) => {
-  return acc +=`<li>
-  <img src="${image.url}", alt=${image.alt}></li>`
-}, '');
-gallery.insertAdjacentHTML('beforeend', listItem);
 
 
-//применить редюс, поработать с шаблоной строкой и применить метод - insert adjisterdHTML
+

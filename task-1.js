@@ -5,3 +5,4 @@ items.forEach(item => {
   console.log(`${item.firstElementChild.innerHTML}`);
   console.log(`${item.lastElementChild.children.length}`);
 });
+
